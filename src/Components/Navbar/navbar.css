@@ -1,0 +1,66 @@
+.navBarSection {
+    align-items: center; /* Align items vertically */
+    padding: 1rem; /* Add padding */
+    top: 0; /* Position from the top */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navLists {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navItem {
+    margin-right: 1rem;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.headerBtns {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: purple; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.closeNavbar {
+    margin-right: 1rem;
+}
+
+.toggleNavbar {
+    margin-left: 1rem;
+}
